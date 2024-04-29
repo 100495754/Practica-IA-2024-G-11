@@ -1,7 +1,11 @@
 from main.variables.Age import Age
+from main.read_classes.MFIS_Read_Functions import readApplicationsFile, readFuzzySetsFile
 from main.read_classes.MFIS_Read_Functions import readApplicationsFile
+from main.variables.Amount import Amount
 from main.variables.Assets import Assets
+from main.variables.History import History
 from main.variables.IncomeLevel import IncomeLevel
+from main.variables.Job import Job
 
 app = readApplicationsFile()
 j = 0
@@ -23,7 +27,24 @@ for i in app:
     algo = Assets(assets)
     algo.asset()
 
+    amount = app[j].data[3][1]
+    print(amount)
+    algo = Amount(amount)
+    algo.amount()
+
+    job = app[j].data[4][1]
+    print(job)
+    algo = Job(job)
+    algo.job()
+
+    history = app[j].data[5][1]
+    print(history)
+    algo = History(history)
+    algo.history()
+
     j += 1
     print("")
     print("")
 
+"""app = readFuzzySetsFile("read_classes/InputVarSets.txt")
+print(app.printFuzzySetsDict())"""
