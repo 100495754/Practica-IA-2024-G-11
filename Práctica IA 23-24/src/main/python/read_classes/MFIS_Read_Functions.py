@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import numpy as np
 import skfuzzy as skf
-from MFIS_Classes import *
+from read_classes.MFIS_Classes import *
 
 def readFuzzySetsFile(fleName):
     """
