@@ -14,6 +14,8 @@ class Job(Trapezoide.Trapezoideloco):
         print("Grado de membresía para 'Unstable':", Unstable)
         print("Grado de membresía para 'Stable':", Stable)
 
+        return Unstable, Stable
+
     def grafico(self):
         x = np.linspace(0, 5, 1000)
 

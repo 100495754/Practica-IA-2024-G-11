@@ -16,6 +16,7 @@ class Assets(Trapezoide.Trapezoideloco):
         print("Grado de membresía para 'Moderate':", Moderate)
         print("Grado de membresía para 'Abundant':", Abundant)
 
+        return Scarce, Moderate, Abundant
     def grafico(self):
         x = np.linspace(0, 50, 1000)
 

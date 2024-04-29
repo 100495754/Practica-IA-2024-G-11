@@ -16,6 +16,8 @@ class History(Trapezoide.Trapezoideloco):
         print("Grado de membresía para 'Standard':", Standard)
         print("Grado de membresía para 'Good':", Good)
 
+        return Poor, Standard,Good
+
     def grafico(self):
         x = np.linspace(0, 6, 1000)
 

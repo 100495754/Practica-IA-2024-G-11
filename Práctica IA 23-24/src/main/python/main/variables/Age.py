@@ -15,7 +15,7 @@ class Age(Trapezoide.Trapezoideloco):
         print("Grado de membresía para 'joven':", young_x)
         print("Grado de membresía para 'adulto':", adult_x)
         print("Grado de membresía para 'anciano':", elder_x)
-
+        return young_x, adult_x, elder_x
     def grafico(self):
         x = np.linspace(0, 100, 1000)
 

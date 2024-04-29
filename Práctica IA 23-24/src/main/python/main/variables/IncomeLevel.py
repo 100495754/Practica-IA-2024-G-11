@@ -15,6 +15,7 @@ class IncomeLevel(Trapezoide.Trapezoideloco):
         print("Grado de membresía para 'Low':", Low)
         print("Grado de membresía para 'Med':", Med)
         print("Grado de membresía para 'Hig':", Hig)
+        return Low, Med, Hig
 
     def grafico(self):
         x = np.linspace(0, 150, 1000)

@@ -18,6 +18,8 @@ class Amount(Trapezoide.Trapezoideloco):
         print("Grado de membresía para 'Big':", Big)
         print("Grado de membresía para 'VeryBig':", VeryBig)
 
+        return Small, Medium, Big, VeryBig
+
     def grafico(self):
         x = np.linspace(0, 8, 1000)
 
