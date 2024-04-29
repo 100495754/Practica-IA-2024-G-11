@@ -30,10 +30,7 @@ fan.input['temperature'] = 30  # Temperatura en grados Celsius
 # Calcular la salida
 fan.compute()
 
-# Asegurarse de que accedemos correctamente a la entrada y la salida
-input_temperature = fan.input['temperature']
-output_fan_speed = fan.output['fan_speed']
-print("A la temperatura de %d°C, la velocidad del ventilador debe ser %.2f%%." % (input_temperature, output_fan_speed))
+
 
 
 
