@@ -1,34 +1,49 @@
 import numpy as np
-import skfuzzy as fuzz
-from skfuzzy import control as ctrl
+import matplotlib.pyplot as plt
 
-# Paso 1: Crear las variables del universo
-temperature = ctrl.Antecedent(np.arange(10, 41, 1), 'temperature')
-fan_speed = ctrl.Consequent(np.arange(0, 101, 1), 'fan_speed')
+# Define the membership functions
+def young(age):
+    if age <= 30:
+        return 1
+    elif 30 < age <= 40:
+        return (40 - age) / 10
+    else:
+        return 0
 
-# Paso 2: Generar funciones de membresía
-temperature['low'] = fuzz.trimf(temperature.universe, [10, 10, 25])
-temperature['medium'] = fuzz.trimf(temperature.universe, [20, 25, 30])
-temperature['high'] = fuzz.trimf(temperature.universe, [25, 40, 40])
+def adult(age):
+    if 20 < age <= 40:
+        return (age - 20) / 20
+    elif 40 < age <= 60:
+        return (60 - age) / 20
+    else:
+        return 0
 
-fan_speed['low'] = fuzz.trimf(fan_speed.universe, [0, 0, 50])
-fan_speed['medium'] = fuzz.trimf(fan_speed.universe, [25, 50, 75])
-fan_speed['high'] = fuzz.trimf(fan_speed.universe, [50, 100, 100])
+def elder(age):
+    if age < 40:
+        return 0
+    elif 40 <= age <= 60:
+        return (age - 40) / 20
+    else:
+        return 1
 
-# Paso 3: Crear las reglas
-rule1 = ctrl.Rule(temperature['low'], fan_speed['low'])
-rule2 = ctrl.Rule(temperature['medium'], fan_speed['medium'])
-rule3 = ctrl.Rule(temperature['high'], fan_speed['high'])
+# Test the membership functions and plot them
+ages = np.arange(0, 101, 1)
+young_values = np.array([young(age) for age in ages])
+adult_values = np.array([adult(age) for age in ages])
+elder_values = np.array([elder(age) for age in ages])
 
-# Paso 4: Crear y simular el sistema de control
-fan_control = ctrl.ControlSystem([rule1, rule2, rule3])
-fan = ctrl.ControlSystemSimulation(fan_control)
+# Plotting the membership functions
+plt.figure(figsize=(10, 4))
+plt.plot(ages, young_values, label='Young', color='blue')
+plt.plot(ages, adult_values, label='Adult', color='green')
+plt.plot(ages, elder_values, label='Elder', color='red')
+plt.title('Fuzzy Membership Functions for Age')
+plt.xlabel('Age')
+plt.ylabel('Membership grade')
+plt.legend()
+plt.grid(True)
+plt.show()
 
-# Definir una temperatura específica para probar
-fan.input['temperature'] = 30  # Temperatura en grados Celsius
-
-# Calcular la salida
-fan.compute()
 
 
 

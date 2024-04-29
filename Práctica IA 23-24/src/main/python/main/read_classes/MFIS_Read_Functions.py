@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import numpy as np
 import skfuzzy as skf
-from read_classes.MFIS_Classes import *
+from main.read_classes.MFIS_Classes import *
 
 def readFuzzySetsFile(fleName):
     """
@@ -55,7 +55,7 @@ def readRulesFile():
     return rules
 
 def readApplicationsFile():
-    inputFile = open('Files/Applications.txt', 'r')
+    inputFile = open('read_classes/Applications.txt', 'r')
     applicationList = []
     line = inputFile.readline()
     while line != '':
@@ -70,3 +70,6 @@ def readApplicationsFile():
     inputFile.close()
     return applicationList
 
+"""prueba = readApplicationsFile()
+print(prueba[0].appId)
+print(prueba[0].data)"""
