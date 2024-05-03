@@ -29,70 +29,53 @@ except FileNotFoundError:
 
 dict = {}
 for i in app:
+    temp_dict = {}
+
     """Edad"""
     data = {}
-    temp_dict = {}
     edad = app[j].data[0][1]
-    print(edad)
     algo = Age(edad)
     data["Young"],data["Adult"],data["Elder"] = algo.age()
     temp_dict["Age"] = data
-    print(data)
-    algo.age()
 
     """IncomeLevel"""
     data = {}
     incomelevel = app[j].data[1][1]
-    print(incomelevel)
     algo = IncomeLevel(incomelevel)
     data["Low"], data["Med"], data["Hig"] = algo.incomelevel()
     temp_dict["IncomeLevel"] = data
-    algo.incomelevel()
 
     """Assets"""
     data = {}
     assets = app[j].data[2][1]
-    print(assets)
     algo = Assets(assets)
     data["Scarce"], data["Moderate"], data["Abundant"] = algo.asset()
     temp_dict["Assets"] = data
-    algo.asset()
 
     """Amount"""
     data = {}
     amount = app[j].data[3][1]
-    print(amount)
     algo = Amount(amount)
     data["Small"], data["Medium"], data["Big"], data["VeryBig"]= algo.amount()
     temp_dict["Amount"] = data
-    algo.amount()
 
     """Job"""
     data = {}
     job = app[j].data[4][1]
-    print(job)
     algo = Job(job)
     data["Unstable"], data["Stable"] = algo.job()
     temp_dict["Job"] = data
-    algo.job()
 
     """History"""
     data = {}
     history = app[j].data[5][1]
-    print(history)
     algo = History(history)
     data["Poor"], data["Standard"], data["Good"] = algo.history()
     temp_dict["History"] = data
-    algo.history()
 
     dict[app[j].appId] = temp_dict
-    print(dict)
-
 
     j += 1
-    print("")
-    print("")
-
 
 try:
     with open(file, 'w') as f:

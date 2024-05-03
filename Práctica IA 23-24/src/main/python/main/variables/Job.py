@@ -11,10 +11,11 @@ class Job(Trapezoide.Trapezoideloco):
         Unstable = self.trapezoidal_membership(self.job_, -2, -1, 1, 2)
         Stable = self.trapezoidal_membership(self.job_, 2, 3, 6, 7)
 
+        return Unstable, Stable
+
+    def imprimir(self, Stable, Unstable):
         print("Grado de membresía para 'Unstable':", Unstable)
         print("Grado de membresía para 'Stable':", Stable)
-
-        return Unstable, Stable
 
     def grafico(self):
         x = np.linspace(0, 5, 1000)

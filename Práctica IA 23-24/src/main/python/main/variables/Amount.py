@@ -13,12 +13,13 @@ class Amount(Trapezoide.Trapezoideloco):
         Big = self.trapezoidal_membership(self.amounts, 3, 5, 5, 7)
         VeryBig = self.trapezoidal_membership(self.amounts, 5, 7, 11, 12)
 
+        return Small, Medium, Big, VeryBig
+
+    def imprimir(self, Big, Medium, Small, VeryBig):
         print("Grado de membresía para 'Small':", Small)
         print("Grado de membresía para 'Medium':", Medium)
         print("Grado de membresía para 'Big':", Big)
         print("Grado de membresía para 'VeryBig':", VeryBig)
-
-        return Small, Medium, Big, VeryBig
 
     def grafico(self):
         x = np.linspace(0, 8, 1000)

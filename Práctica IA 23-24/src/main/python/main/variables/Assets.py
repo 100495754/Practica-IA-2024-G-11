@@ -12,11 +12,14 @@ class Assets(Trapezoide.Trapezoideloco):
         Moderate = self.trapezoidal_membership(self.assets, 5, 10, 20, 30)
         Abundant = self.trapezoidal_membership(self.assets, 25, 30, 60, 70)
 
+
+        return Scarce, Moderate, Abundant
+
+    def imprimir(self, Abundant, Moderate, Scarce):
         print("Grado de membresía para 'Scarce':", Scarce)
         print("Grado de membresía para 'Moderate':", Moderate)
         print("Grado de membresía para 'Abundant':", Abundant)
 
-        return Scarce, Moderate, Abundant
     def grafico(self):
         x = np.linspace(0, 50, 1000)
 

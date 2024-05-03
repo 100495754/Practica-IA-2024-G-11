@@ -12,11 +12,12 @@ class History(Trapezoide.Trapezoideloco):
         Standard = self.trapezoidal_membership(self.hist, 1, 2, 4, 5)
         Good = self.trapezoidal_membership(self.hist, 3, 5, 8, 9)
 
+        return Poor, Standard,Good
+
+    def imprimir(self, Good, Poor, Standard):
         print("Grado de membresía para 'Poor':", Poor)
         print("Grado de membresía para 'Standard':", Standard)
         print("Grado de membresía para 'Good':", Good)
-
-        return Poor, Standard,Good
 
     def grafico(self):
         x = np.linspace(0, 6, 1000)
