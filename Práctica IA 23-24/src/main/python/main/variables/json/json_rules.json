@@ -1,0 +1,366 @@
+{
+    "Rule01": {
+        "IF": {
+            "IncomeLevel": "Hig",
+            "Assets": "Abundant",
+            "Amount": "Small"
+        },
+        "Risk": "LowR"
+    },
+    "Rule02": {
+        "IF": {
+            "IncomeLevel": "Hig",
+            "Assets": "Abundant",
+            "Amount": "Medium"
+        },
+        "Risk": "LowR"
+    },
+    "Rule03": {
+        "IF": {
+            "IncomeLevel": "Hig",
+            "Assets": "Abundant",
+            "Amount": "Big"
+        },
+        "Risk": "MediumR"
+    },
+    "Rule04": {
+        "IF": {
+            "IncomeLevel": "Hig",
+            "Assets": "Abundant",
+            "Amount": "VeryBig",
+            "Job": "Stable"
+        },
+        "Risk": "MediumR"
+    },
+    "Rule05": {
+        "IF": {
+            "Age": "Young",
+            "Amount": "Big"
+        },
+        "Risk": "HighR"
+    },
+    "Rule06": {
+        "IF": {
+            "Age": "Elder",
+            "Amount": "Big"
+        },
+        "Risk": "HighR"
+    },
+    "Rule07": {
+        "IF": {
+            "IncomeLevel": "Low",
+            "Amount": "VeryBig"
+        },
+        "Risk": "HighR"
+    },
+    "Rule08": {
+        "IF": {
+            "IncomeLevel": "Med",
+            "Amount": "VeryBig"
+        },
+        "Risk": "HighR"
+    },
+    "Rule09": {
+        "IF": {
+            "Amount": "Medium",
+            "Job": "Stable",
+            "History": "Good"
+        },
+        "Risk": "LowR"
+    },
+    "Rule10": {
+        "IF": {
+            "Amount": "Big",
+            "Job": "Stable",
+            "History": "Good"
+        },
+        "Risk": "MediumR"
+    },
+    "Rule11": {
+        "IF": {
+            "IncomeLevel": "Low",
+            "Job": "Unstable"
+        },
+        "Risk": "HighR"
+    },
+    "Rule12": {
+        "IF": {
+            "IncomeLevel": "Med",
+            "Amount": "Big",
+            "History": "Poor"
+        },
+        "Risk": "HighR"
+    },
+    "Rule13": {
+        "IF": {
+            "IncomeLevel": "Low",
+            "Amount": "Big",
+            "History": "Poor"
+        },
+        "Risk": "HighR"
+    },
+    "Rule14": {
+        "IF": {
+            "Assets": "Scarce",
+            "Amount": "Small",
+            "History": "Good"
+        },
+        "Risk": "LowR"
+    },
+    "Rule15": {
+        "IF": {
+            "Assets": "Scarce",
+            "Amount": "Medium",
+            "History": "Good"
+        },
+        "Risk": "LowR"
+    },
+    "Rule16": {
+        "IF": {
+            "Age": "Adult",
+            "IncomeLevel": "Hig",
+            "Amount": "Medium"
+        },
+        "Risk": "MediumR"
+    },
+    "Rule17": {
+        "IF": {
+            "Age": "Adult",
+            "Assets": "Abundant",
+            "Amount": "Medium"
+        },
+        "Risk": "MediumR"
+    },
+    "Rule18": {
+        "IF": {
+            "Assets": "Moderate",
+            "Amount": "Medium",
+            "Job": "Stable"
+        },
+        "Risk": "MediumR"
+    },
+    "Rule19": {
+        "IF": {
+            "Age": "Young",
+            "IncomeLevel": "Low"
+        },
+        "Risk": "MediumR"
+    },
+    "Rule20": {
+        "IF": {
+            "Age": "Young",
+            "IncomeLevel": "Med"
+        },
+        "Risk": "HighR"
+    },
+    "Rule21": {
+        "IF": {
+            "Age": "Young",
+            "Assets": "Moderate"
+        },
+        "Risk": "MediumR"
+    },
+    "Rule22": {
+        "IF": {
+            "Age": "Young",
+            "Assets": "Scarce"
+        },
+        "Risk": "HighR"
+    },
+    "Rule23": {
+        "IF": {
+            "Age": "Young",
+            "Amount": "Big"
+        },
+        "Risk": "MediumR"
+    },
+    "Rule24": {
+        "IF": {
+            "Age": "Young",
+            "Amount": "VeryBig"
+        },
+        "Risk": "HighR"
+    },
+    "Rule25": {
+        "IF": {
+            "Age": "Young",
+            "Job": "Unstable"
+        },
+        "Risk": "HighR"
+    },
+    "Rule26": {
+        "IF": {
+            "Age": "Young",
+            "History": "Poor"
+        },
+        "Risk": "MediumR"
+    },
+    "Rule27": {
+        "IF": {
+            "Age": "Young",
+            "History": "Standard"
+        },
+        "Risk": "HighR"
+    },
+    "Rule28": {
+        "IF": {
+            "Age": "Elder",
+            "IncomeLevel": "Low"
+        },
+        "Risk": "MediumR"
+    },
+    "Rule29": {
+        "IF": {
+            "Age": "Elder",
+            "IncomeLevel": "Med"
+        },
+        "Risk": "HighR"
+    },
+    "Rule30": {
+        "IF": {
+            "Age": "Elder",
+            "Assets": "Moderate"
+        },
+        "Risk": "MediumR"
+    },
+    "Rule31": {
+        "IF": {
+            "Age": "Elder",
+            "Assets": "Scarce"
+        },
+        "Risk": "HighR"
+    },
+    "Rule32": {
+        "IF": {
+            "Age": "Elder",
+            "Amount": "Big"
+        },
+        "Risk": "MediumR"
+    },
+    "Rule33": {
+        "IF": {
+            "Age": "Elder",
+            "Amount": "VeryBig"
+        },
+        "Risk": "HighR"
+    },
+    "Rule34": {
+        "IF": {
+            "Age": "Elder",
+            "Job": "Unstable"
+        },
+        "Risk": "HighR"
+    },
+    "Rule35": {
+        "IF": {
+            "Age": "Elder",
+            "History": "Poor"
+        },
+        "Risk": "MediumR"
+    },
+    "Rule36": {
+        "IF": {
+            "Age": "Elder",
+            "History": "Standard"
+        },
+        "Risk": "HighR"
+    },
+    "Rule37": {
+        "IF": {
+            "IncomeLevel": "Low",
+            "Assets": "Scarce"
+        },
+        "Risk": "HighR"
+    },
+    "Rule38": {
+        "IF": {
+            "IncomeLevel": "Low",
+            "Amount": "Big"
+        },
+        "Risk": "HighR"
+    },
+    "Rule39": {
+        "IF": {
+            "IncomeLevel": "Low",
+            "Amount": "VeryBig"
+        },
+        "Risk": "HighR"
+    },
+    "Rule40": {
+        "IF": {
+            "IncomeLevel": "Low",
+            "Job": "Unstable"
+        },
+        "Risk": "HighR"
+    },
+    "Rule41": {
+        "IF": {
+            "IncomeLevel": "Med",
+            "Assets": "Scarce"
+        },
+        "Risk": "MediumR"
+    },
+    "Rule42": {
+        "IF": {
+            "IncomeLevel": "Med",
+            "Amount": "Big"
+        },
+        "Risk": "MediumR"
+    },
+    "Rule43": {
+        "IF": {
+            "IncomeLevel": "Med",
+            "Amount": "VeryBig"
+        },
+        "Risk": "MediumR"
+    },
+    "Rule44": {
+        "IF": {
+            "IncomeLevel": "Med",
+            "Job": "Unstable"
+        },
+        "Risk": "MediumR"
+    },
+    "Rule45": {
+        "IF": {
+            "IncomeLevel": "Med"
+        },
+        "Risk": "MediumR"
+    },
+    "Rule46": {
+        "IF": {
+            "IncomeLevel": "Med"
+        },
+        "Risk": "MediumR"
+    },
+    "Rule47": {
+        "IF": {
+            "Amount": "Big",
+            "Job": "Stable"
+        },
+        "Risk": "HighR"
+    },
+    "Rule48": {
+        "IF": {
+            "Amount": "VeryBig",
+            "Job": "Stable"
+        },
+        "Risk": "HighR"
+    },
+    "Rule49": {
+        "IF": {
+            "Amount": "Big",
+            "Job": "Stable",
+            "History": "Good"
+        },
+        "Risk": "MediumR"
+    },
+    "Rule50": {
+        "IF": {
+            "Amount": "VeryBig",
+            "Job": "Stable",
+            "History": "Good"
+        },
+        "Risk": "MediumR"
+    }
+}

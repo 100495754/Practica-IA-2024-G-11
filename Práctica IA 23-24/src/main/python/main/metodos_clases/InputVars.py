@@ -26,7 +26,6 @@ class InputVars:
             with open(self.file, 'r') as f:
                 z = json.load(f)
         except FileNotFoundError:
-            print("File not found. Creating a new file.")
             z = {}
             with open(self.file, 'w') as f:
                 json.dump(z, f)  # Crea un archivo JSON vacío, o ajusta esto según lo que necesites

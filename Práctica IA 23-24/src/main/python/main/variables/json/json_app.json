@@ -1,0 +1,1602 @@
+{
+    "0001": {
+        "Age": {
+            "Young": 0.5,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.0,
+            "Hig": 1.0
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.0,
+            "Abundant": 1.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.0,
+            "Big": 0.0,
+            "VeryBig": 1.0
+        },
+        "Job": {
+            "Unstable": 1.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 1.0,
+            "Standard": 0.0,
+            "Good": 0.0
+        }
+    },
+    "0002": {
+        "Age": {
+            "Young": 1.0,
+            "Adult": 0.4,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.0,
+            "Hig": 1.0
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.7,
+            "Abundant": 0.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.5,
+            "Big": 0.5,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 1.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 0.0,
+            "Good": 1.0
+        }
+    },
+    "0003": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.4,
+            "Hig": 0.7
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.0,
+            "Abundant": 1.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.0,
+            "Big": 1.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 1.0
+        },
+        "History": {
+            "Poor": 1.0,
+            "Standard": 0.0,
+            "Good": 0.0
+        }
+    },
+    "0004": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 0.9333333333333333,
+            "Elder": 0.06666666666666667
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.0,
+            "Hig": 1.0
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.6,
+            "Abundant": 0.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 1.0,
+            "Big": 0.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 1.0,
+            "Standard": 0.0,
+            "Good": 0.0
+        }
+    },
+    "0005": {
+        "Age": {
+            "Young": 0.3,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.1,
+            "Hig": 0.925
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.1,
+            "Abundant": 0.8
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.0,
+            "Big": 0.0,
+            "VeryBig": 1.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 0.0,
+            "Good": 1.0
+        }
+    },
+    "0006": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.36666666666666664,
+            "Hig": 0.725
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.3,
+            "Abundant": 0.4
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.0,
+            "Big": 0.0,
+            "VeryBig": 1.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 1.0
+        },
+        "History": {
+            "Poor": 0.5,
+            "Standard": 1.0,
+            "Good": 0.0
+        }
+    },
+    "0007": {
+        "Age": {
+            "Young": 0.9,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.06666666666666667,
+            "Med": 1.0,
+            "Hig": 0.0
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.4,
+            "Abundant": 0.2
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.0,
+            "Big": 0.0,
+            "VeryBig": 1.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 1.0
+        },
+        "History": {
+            "Poor": 1.0,
+            "Standard": 0.0,
+            "Good": 0.0
+        }
+    },
+    "0008": {
+        "Age": {
+            "Young": 0.3,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.4,
+            "Med": 1.0,
+            "Hig": 0.0
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.0,
+            "Abundant": 1.0
+        },
+        "Amount": {
+            "Small": 0.5,
+            "Medium": 0.5,
+            "Big": 0.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 1.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 1.0,
+            "Good": 0.0
+        }
+    },
+    "0009": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.7666666666666667,
+            "Hig": 0.425
+        },
+        "Assets": {
+            "Scarce": 0.06666666666666667,
+            "Moderate": 1.0,
+            "Abundant": 0.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 1.0,
+            "Big": 0.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 1.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 1.0,
+            "Good": 0.0
+        }
+    },
+    "0010": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 0.6666666666666666,
+            "Elder": 0.3333333333333333
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.0,
+            "Hig": 1.0
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 1.0,
+            "Abundant": 0.0
+        },
+        "Amount": {
+            "Small": 1.0,
+            "Medium": 0.0,
+            "Big": 0.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 1.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 1.0,
+            "Standard": 0.0,
+            "Good": 0.0
+        }
+    },
+    "0011": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.6666666666666666,
+            "Med": 1.0,
+            "Hig": 0.0
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.6,
+            "Abundant": 0.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.0,
+            "Big": 0.0,
+            "VeryBig": 1.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 1.0
+        },
+        "History": {
+            "Poor": 0.5,
+            "Standard": 1.0,
+            "Good": 0.0
+        }
+    },
+    "0012": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.06666666666666667,
+            "Hig": 0.95
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.0,
+            "Abundant": 1.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.5,
+            "Big": 0.5,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 1.0,
+            "Good": 0.5
+        }
+    },
+    "0013": {
+        "Age": {
+            "Young": 0.1,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.7,
+            "Hig": 0.475
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.9,
+            "Abundant": 0.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.0,
+            "Big": 0.0,
+            "VeryBig": 1.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 1.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 1.0,
+            "Good": 0.0
+        }
+    },
+    "0014": {
+        "Age": {
+            "Young": 1.0,
+            "Adult": 0.4,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.8,
+            "Med": 0.8,
+            "Hig": 0.0
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.2,
+            "Abundant": 0.6
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 1.0,
+            "Big": 0.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 1.0,
+            "Good": 0.5
+        }
+    },
+    "0015": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.43333333333333335,
+            "Hig": 0.675
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.0,
+            "Abundant": 1.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.0,
+            "Big": 0.5,
+            "VeryBig": 0.5
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 1.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 0.0,
+            "Good": 1.0
+        }
+    },
+    "0016": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 0.9333333333333333,
+            "Elder": 0.06666666666666667
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.0,
+            "Hig": 1.0
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.0,
+            "Abundant": 1.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.0,
+            "Big": 1.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 1.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 1.0,
+            "Good": 0.5
+        }
+    },
+    "0017": {
+        "Age": {
+            "Young": 0.3,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.13333333333333333,
+            "Med": 1.0,
+            "Hig": 0.0
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.1,
+            "Abundant": 0.8
+        },
+        "Amount": {
+            "Small": 0.5,
+            "Medium": 0.5,
+            "Big": 0.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 1.0,
+            "Standard": 0.0,
+            "Good": 0.0
+        }
+    },
+    "0018": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.5333333333333333,
+            "Hig": 0.6
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.9,
+            "Abundant": 0.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 1.0,
+            "Big": 0.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 1.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 1.0,
+            "Standard": 0.0,
+            "Good": 0.0
+        }
+    },
+    "0019": {
+        "Age": {
+            "Young": 0.9,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 1.0,
+            "Hig": 0.025
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.2,
+            "Abundant": 0.6
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.0,
+            "Big": 0.0,
+            "VeryBig": 1.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 0.5,
+            "Standard": 1.0,
+            "Good": 0.0
+        }
+    },
+    "0020": {
+        "Age": {
+            "Young": 0.3,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.0,
+            "Hig": 1.0
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.0,
+            "Abundant": 1.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.5,
+            "Big": 0.5,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 1.0,
+            "Standard": 0.0,
+            "Good": 0.0
+        }
+    },
+    "0021": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.7666666666666667,
+            "Hig": 0.425
+        },
+        "Assets": {
+            "Scarce": 0.4,
+            "Moderate": 1.0,
+            "Abundant": 0.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.0,
+            "Big": 0.0,
+            "VeryBig": 1.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 1.0
+        },
+        "History": {
+            "Poor": 0.5,
+            "Standard": 1.0,
+            "Good": 0.0
+        }
+    },
+    "0022": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 0.6666666666666666,
+            "Elder": 0.3333333333333333
+        },
+        "IncomeLevel": {
+            "Low": 0.6,
+            "Med": 1.0,
+            "Hig": 0.0
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.0,
+            "Abundant": 1.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 1.0,
+            "Big": 0.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 1.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 0.0,
+            "Good": 1.0
+        }
+    },
+    "0023": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.9666666666666667,
+            "Hig": 0.275
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.2,
+            "Abundant": 0.6
+        },
+        "Amount": {
+            "Small": 0.5,
+            "Medium": 0.5,
+            "Big": 0.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 1.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 1.0,
+            "Good": 0.0
+        }
+    },
+    "0024": {
+        "Age": {
+            "Young": 1.0,
+            "Adult": 0.4,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.36666666666666664,
+            "Hig": 0.725
+        },
+        "Assets": {
+            "Scarce": 0.4666666666666667,
+            "Moderate": 1.0,
+            "Abundant": 0.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.0,
+            "Big": 0.0,
+            "VeryBig": 1.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 1.0
+        },
+        "History": {
+            "Poor": 0.5,
+            "Standard": 1.0,
+            "Good": 0.0
+        }
+    },
+    "0025": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.6,
+            "Med": 1.0,
+            "Hig": 0.0
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.0,
+            "Abundant": 1.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 1.0,
+            "Big": 0.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 1.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 0.0,
+            "Good": 1.0
+        }
+    },
+    "0026": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 0.9333333333333333,
+            "Elder": 0.06666666666666667
+        },
+        "IncomeLevel": {
+            "Low": 0.7333333333333333,
+            "Med": 0.9,
+            "Hig": 0.0
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.7,
+            "Abundant": 0.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 1.0,
+            "Big": 0.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 0.0,
+            "Good": 1.0
+        }
+    },
+    "0027": {
+        "Age": {
+            "Young": 0.3,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.0,
+            "Hig": 1.0
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 1.0,
+            "Abundant": 0.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.0,
+            "Big": 0.0,
+            "VeryBig": 1.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 1.0
+        },
+        "History": {
+            "Poor": 1.0,
+            "Standard": 0.0,
+            "Good": 0.0
+        }
+    },
+    "0028": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.9666666666666667,
+            "Hig": 0.275
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 1.0,
+            "Abundant": 0.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.0,
+            "Big": 0.0,
+            "VeryBig": 1.0
+        },
+        "Job": {
+            "Unstable": 1.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 0.0,
+            "Good": 1.0
+        }
+    },
+    "0029": {
+        "Age": {
+            "Young": 0.9,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.0,
+            "Hig": 1.0
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.0,
+            "Abundant": 1.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.0,
+            "Big": 0.0,
+            "VeryBig": 1.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 1.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 1.0,
+            "Good": 0.5
+        }
+    },
+    "0030": {
+        "Age": {
+            "Young": 0.3,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.8,
+            "Med": 0.8,
+            "Hig": 0.0
+        },
+        "Assets": {
+            "Scarce": 0.06666666666666667,
+            "Moderate": 1.0,
+            "Abundant": 0.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.0,
+            "Big": 0.0,
+            "VeryBig": 1.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 1.0
+        },
+        "History": {
+            "Poor": 0.5,
+            "Standard": 1.0,
+            "Good": 0.0
+        }
+    },
+    "0031": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 1.0,
+            "Hig": 0.05
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.0,
+            "Abundant": 1.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.5,
+            "Big": 0.5,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 1.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 0.0,
+            "Good": 1.0
+        }
+    },
+    "0032": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 0.6666666666666666,
+            "Elder": 0.3333333333333333
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.3333333333333333,
+            "Hig": 0.75
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.0,
+            "Abundant": 1.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.0,
+            "Big": 0.0,
+            "VeryBig": 1.0
+        },
+        "Job": {
+            "Unstable": 1.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 1.0,
+            "Good": 0.0
+        }
+    },
+    "0033": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 1.0,
+            "Hig": 0.25
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.0,
+            "Abundant": 1.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 1.0,
+            "Big": 0.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 1.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 1.0,
+            "Good": 0.0
+        }
+    },
+    "0034": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.0,
+            "Hig": 1.0
+        },
+        "Assets": {
+            "Scarce": 0.5333333333333333,
+            "Moderate": 1.0,
+            "Abundant": 0.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.0,
+            "Big": 1.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 1.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 1.0,
+            "Good": 0.5
+        }
+    },
+    "0035": {
+        "Age": {
+            "Young": 0.9,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.6333333333333333,
+            "Hig": 0.525
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.0,
+            "Abundant": 1.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.0,
+            "Big": 1.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 1.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 1.0,
+            "Standard": 0.0,
+            "Good": 0.0
+        }
+    },
+    "0036": {
+        "Age": {
+            "Young": 0.3,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.16666666666666666,
+            "Hig": 0.875
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.0,
+            "Abundant": 1.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.0,
+            "Big": 0.0,
+            "VeryBig": 1.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 1.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 1.0,
+            "Good": 0.5
+        }
+    },
+    "0037": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.3333333333333333,
+            "Hig": 0.75
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.9,
+            "Abundant": 0.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 1.0,
+            "Big": 0.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 1.0
+        },
+        "History": {
+            "Poor": 1.0,
+            "Standard": 0.0,
+            "Good": 0.0
+        }
+    },
+    "0038": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.8666666666666667,
+            "Med": 0.7,
+            "Hig": 0.0
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.0,
+            "Abundant": 1.0
+        },
+        "Amount": {
+            "Small": 1.0,
+            "Medium": 0.0,
+            "Big": 0.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 1.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 0.5,
+            "Standard": 1.0,
+            "Good": 0.0
+        }
+    },
+    "0039": {
+        "Age": {
+            "Young": 1.0,
+            "Adult": 0.4,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.8,
+            "Hig": 0.4
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.7,
+            "Abundant": 0.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.0,
+            "Big": 0.5,
+            "VeryBig": 0.5
+        },
+        "Job": {
+            "Unstable": 1.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 0.0,
+            "Good": 1.0
+        }
+    },
+    "0040": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.7,
+            "Hig": 0.475
+        },
+        "Assets": {
+            "Scarce": 0.2,
+            "Moderate": 1.0,
+            "Abundant": 0.0
+        },
+        "Amount": {
+            "Small": 1.0,
+            "Medium": 0.0,
+            "Big": 0.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 0.0,
+            "Good": 1.0
+        }
+    },
+    "0041": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 0.9333333333333333,
+            "Elder": 0.06666666666666667
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.0,
+            "Hig": 1.0
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.8,
+            "Abundant": 0.0
+        },
+        "Amount": {
+            "Small": 0.5,
+            "Medium": 0.5,
+            "Big": 0.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 1.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 1.0,
+            "Good": 0.5
+        }
+    },
+    "0042": {
+        "Age": {
+            "Young": 0.3,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.06666666666666667,
+            "Med": 1.0,
+            "Hig": 0.0
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.0,
+            "Abundant": 1.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 1.0,
+            "Big": 0.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 1.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 0.0,
+            "Good": 1.0
+        }
+    },
+    "0043": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 1.0,
+            "Hig": 0.025
+        },
+        "Assets": {
+            "Scarce": 0.5333333333333333,
+            "Moderate": 1.0,
+            "Abundant": 0.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 1.0,
+            "Big": 0.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 1.0,
+            "Good": 0.5
+        }
+    },
+    "0044": {
+        "Age": {
+            "Young": 0.9,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.9333333333333333,
+            "Hig": 0.3
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.0,
+            "Abundant": 1.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.0,
+            "Big": 0.0,
+            "VeryBig": 1.0
+        },
+        "Job": {
+            "Unstable": 1.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 1.0,
+            "Good": 0.5
+        }
+    },
+    "0045": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 0.6666666666666666,
+            "Elder": 0.3333333333333333
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 1.0,
+            "Hig": 0.1
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.0,
+            "Abundant": 1.0
+        },
+        "Amount": {
+            "Small": 1.0,
+            "Medium": 0.0,
+            "Big": 0.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 1.0
+        },
+        "History": {
+            "Poor": 1.0,
+            "Standard": 0.0,
+            "Good": 0.0
+        }
+    },
+    "0046": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.7666666666666667,
+            "Hig": 0.425
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.0,
+            "Abundant": 1.0
+        },
+        "Amount": {
+            "Small": 1.0,
+            "Medium": 0.0,
+            "Big": 0.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 1.0
+        },
+        "History": {
+            "Poor": 1.0,
+            "Standard": 0.0,
+            "Good": 0.0
+        }
+    },
+    "0047": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.6333333333333333,
+            "Hig": 0.525
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.2,
+            "Abundant": 0.6
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.0,
+            "Big": 0.0,
+            "VeryBig": 1.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 1.0
+        },
+        "History": {
+            "Poor": 0.0,
+            "Standard": 0.0,
+            "Good": 1.0
+        }
+    },
+    "0048": {
+        "Age": {
+            "Young": 0.1,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.7666666666666667,
+            "Hig": 0.425
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.0,
+            "Abundant": 1.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.5,
+            "Big": 0.5,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 0.5,
+            "Standard": 1.0,
+            "Good": 0.0
+        }
+    },
+    "0049": {
+        "Age": {
+            "Young": 1.0,
+            "Adult": 0.4,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.9,
+            "Hig": 0.325
+        },
+        "Assets": {
+            "Scarce": 0.0,
+            "Moderate": 0.0,
+            "Abundant": 1.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.5,
+            "Big": 0.5,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 0.0,
+            "Stable": 1.0
+        },
+        "History": {
+            "Poor": 1.0,
+            "Standard": 0.0,
+            "Good": 0.0
+        }
+    },
+    "0050": {
+        "Age": {
+            "Young": 0.0,
+            "Adult": 1.0,
+            "Elder": 0.0
+        },
+        "IncomeLevel": {
+            "Low": 0.0,
+            "Med": 0.23333333333333334,
+            "Hig": 0.825
+        },
+        "Assets": {
+            "Scarce": 0.06666666666666667,
+            "Moderate": 1.0,
+            "Abundant": 0.0
+        },
+        "Amount": {
+            "Small": 0.0,
+            "Medium": 0.0,
+            "Big": 1.0,
+            "VeryBig": 0.0
+        },
+        "Job": {
+            "Unstable": 1.0,
+            "Stable": 0.0
+        },
+        "History": {
+            "Poor": 0.5,
+            "Standard": 1.0,
+            "Good": 0.0
+        }
+    }
+}
