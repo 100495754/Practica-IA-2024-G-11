@@ -2,6 +2,7 @@ from scipy.integrate import trapz
 
 from main.variables import Trapezoide
 import numpy as np
+import skfuzzy as fuzz
 import matplotlib.pyplot as plt
 from scipy.integrate import trapezoid
 
@@ -51,12 +52,12 @@ class Risk(Trapezoide.Trapezoideloco):
         HighR = self.trapezoidal_membership(x, 50, 70, 100, 111)
 
         # Aplicar los grados de activación
-        activated_LowR = low * LowR
-        activated_MediumR = med * MediumR
-        activated_HighR = hig * HighR
+        LowR_cutoff = self.cutoff_trapezoidal_membership(LowR, low)
+        MediumR_cutoff = self.cutoff_trapezoidal_membership(MediumR, med)
+        HighR_cutoff = self.cutoff_trapezoidal_membership(HighR, hig)
 
         # Combinar las membresías activadas usando el operador máximo
-        combined_membership = np.maximum(np.maximum(activated_LowR, activated_MediumR), activated_HighR)
+        combined_membership = np.maximum(np.maximum(LowR_cutoff, MediumR_cutoff), HighR_cutoff)
 
         # Crear la gráfica
         plt.figure(figsize=(10, 6))
@@ -74,20 +75,32 @@ class Risk(Trapezoide.Trapezoideloco):
         plt.show()
 
     def centroide(self, low, medium, high):
-        x = np.linspace(0, 100, 1000)
+        x = np.linspace(0, 100, 10000)
         LowR = self.trapezoidal_membership(x, -20, -10, 30, 50)
         MediumR = self.trapezoidal_membership(x, 10, 40, 70, 90)
         HighR = self.trapezoidal_membership(x, 50, 70, 100, 111)
 
-        activated_LowR = low * LowR
-        activated_MediumR = medium * MediumR
-        activated_HighR = high * HighR
+        # Aplicar los grados de activación
+        LowR_cutoff = self.cutoff_trapezoidal_membership(LowR, low)
+        MediumR_cutoff = self.cutoff_trapezoidal_membership(MediumR, medium)
+        HighR_cutoff = self.cutoff_trapezoidal_membership(HighR, high)
 
-        # Combinar las membresías activadas
-        combined_membership = np.maximum(np.maximum(activated_LowR, activated_MediumR), activated_HighR)
+        # Combinar las membresías activadas usando el operador máximo
+        combined_membership = np.maximum(np.maximum(LowR_cutoff, MediumR_cutoff), HighR_cutoff)
 
         # Calcular el centroide
-        numerator = trapezoid(combined_membership * x, x)
-        denominator = trapezoid(combined_membership, x)
-        centroid = numerator / denominator
+        """Forma1"""
+        centroid = fuzz.defuzz(x, combined_membership, 'centroid')
+        """Forma2"""
+        #numerator = np.trapz(combined_membership * x, x)
+        #denominator = np.trapz(combined_membership, x)
+        #centroid = numerator / denominator
         return centroid
+
+    # Función para cortar el gráfico trapezoidal hasta un valor específico
+    def cutoff_trapezoidal_membership(self, values, threshold):
+        """Limitar los valores trapezoidales a un umbral dado."""
+        return np.minimum(values, threshold)
+
+risk = Risk(10)
+print(risk.centroide(0.5, 0.7, 0.5))

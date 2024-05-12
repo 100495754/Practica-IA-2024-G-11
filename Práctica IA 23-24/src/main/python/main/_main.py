@@ -3,13 +3,6 @@ import os
 from pathlib import Path
 
 from main.metodos_clases.json_rules import CrearRules
-from main.variables.Age import Age
-from main.read_classes.MFIS_Read_Functions import readApplicationsFile, readFuzzySetsFile, readRulesFile
-from main.variables.Amount import Amount
-from main.variables.Assets import Assets
-from main.variables.History import History
-from main.variables.IncomeLevel import IncomeLevel
-from main.variables.Job import Job
 from main.metodos_clases.InputVars import InputVars
 from main.variables.Risk import Risk
 
