@@ -1,10 +1,10 @@
-from main.variables import Trapezoide
+
 import numpy as np
 import skfuzzy as fuzz
 import matplotlib.pyplot as plt
 
 
-class Age(Trapezoide.Trapezoide):
+class Age:
     def __init__(self, age):
         self.edad = age
         # Definir el rango universal para la variable Age

@@ -1,10 +1,10 @@
-from main.variables import Trapezoide
+
 import numpy as np
 import skfuzzy as fuzz
 import matplotlib.pyplot as plt
 
 
-class History(Trapezoide.Trapezoide):
+class History:
     def __init__(self, hist):
         self.hist = hist
         # Definir el rango universal

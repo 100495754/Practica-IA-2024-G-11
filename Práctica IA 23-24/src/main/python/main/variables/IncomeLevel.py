@@ -1,10 +1,10 @@
-from main.variables import Trapezoide
+
 import numpy as np
 import skfuzzy as fuzz
 import matplotlib.pyplot as plt
 
 
-class IncomeLevel(Trapezoide.Trapezoide):
+class IncomeLevel:
     def __init__(self, income):
         self.income = income
         # Definir el rango universal

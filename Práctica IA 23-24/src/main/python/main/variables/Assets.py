@@ -1,10 +1,10 @@
-from main.variables import Trapezoide
+
 import numpy as np
 import skfuzzy as fuzz
 import matplotlib.pyplot as plt
 
 
-class Assets(Trapezoide.Trapezoide):
+class Assets:
     def __init__(self, assets):
         self.assets = assets
         # Definir el rango universal
