@@ -1,15 +1,7 @@
 import json
 import os
 from pathlib import Path
-from main.variables.Age import Age
-from main.read_classes.MFIS_Read_Functions import readApplicationsFile, \
-    readFuzzySetsFile, readRulesFile
-from main.read_classes.MFIS_Read_Functions import readApplicationsFile
-from main.variables.Amount import Amount
-from main.variables.Assets import Assets
-from main.variables.History import History
-from main.variables.IncomeLevel import IncomeLevel
-from main.variables.Job import Job
+from main.read_classes.MFIS_Read_Functions import readRulesFile
 
 
 class CrearRules:
@@ -39,8 +31,8 @@ class CrearRules:
             print("File not found")
 
     def crear_dictrules(self):
+        """Función que interpreta rules.txt y las guarda en un diccionario"""
         rules = readRulesFile()
-
         dict_rules = {}
 
         for rule in rules:
@@ -57,6 +49,9 @@ class CrearRules:
         return dict_rules
 
     def calcular_riesgos(self,applications, dic_total, rules):
+        """Itera por cada aplicacion y a su vez itera por cada regla,
+        quedandose el valor máximo de cada riesgo, pero el valor mínimo de cada variable.
+        APLICA LA REGLA DEL MIN-MAX"""
         for app in applications:
             aux_dict = {}
             lowR, mediumR, highR = 0, 0, 0

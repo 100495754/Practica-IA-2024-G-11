@@ -3,7 +3,6 @@ import json
 import os
 from pathlib import Path
 from main.variables.Age import Age
-from main.read_classes.MFIS_Read_Functions import readApplicationsFile, readFuzzySetsFile
 from main.read_classes.MFIS_Read_Functions import readApplicationsFile
 from main.variables.Amount import Amount
 from main.variables.Assets import Assets

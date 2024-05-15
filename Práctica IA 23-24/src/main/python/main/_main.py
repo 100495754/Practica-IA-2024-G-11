@@ -1,14 +1,14 @@
-import json
+"""Proyecto de IA 23-24"""
 import os
 from pathlib import Path
-
-from main.metodos_clases.json_rules import CrearRules
+from main.metodos_clases.CrearRules import CrearRules
 from main.metodos_clases.InputVars import InputVars
 from main.variables.Risk import Risk
 
 json_files_path = (str(Path.home()) +
                        "/PycharmProjects/Practica-IA-2024-G-11/Práctica IA 23-24/src/main/python/main/variables/json")
 def apps_to_dict():
+    """Esta función fuzzifica todas las variables por cada application y las guarda en un diccionario de python"""
     input = InputVars()
     input.borrado_y_creado_json()
     input_dict = input.calcular_variables()
@@ -16,6 +16,7 @@ def apps_to_dict():
     return input_dict
 
 def rules_to_dict():
+    """Esta función clasifica todas las rules en un mismo diccionario de python"""
     rules = CrearRules()
     rules.borrado_y_creado_json()
     rules.crear_json_app()
@@ -25,14 +26,16 @@ def rules_to_dict():
 
 
 def calc_risk():
-        applications = apps_to_dict()
-        rules = rules_to_dict()
-        dic_total = {}
-        calculo = CrearRules()
-        dic_total = calculo.calcular_riesgos(applications, dic_total, rules)
-        return dic_total
+    """Esta funcion recoge ambos diccionarios creados anteriormente y calcula cada riesgo por cada application"""
+    applications = apps_to_dict()
+    rules = rules_to_dict()
+    dic_total = {}
+    calculo = CrearRules()
+    dic_total = calculo.calcular_riesgos(applications, dic_total, rules)
+    return dic_total
 
 def calc_centroide():
+    """Esta funcion calcula el centroide por cada application"""
     dict = calc_risk()
     for app in dict:
         low = dict[app]["LowR"]
@@ -45,8 +48,8 @@ def calc_centroide():
     return dict
 
 def crear_resultado():
-    # Datos de entrada
-    file_path = 'output.txt'
+    """Esta función recoge en un mismo fichero .txt todos los resultados"""
+    file_path = 'resultados.txt'
     if os.path.isfile(file_path):
         os.remove(file_path)  # Elimina el archivo si ya existe
 
@@ -57,15 +60,14 @@ def crear_resultado():
         centroide = values.get('Centroide', 'n/a')
         if isinstance(centroide, float):
             centroide = round(centroide, 3)
-        # Construye una línea de texto incluyendo los valores de riesgo y el centroide
-        line = f"{key}, LowR={values.get('LowR', 0)}, MediumR={values.get('MediumR', 0)}, HighR={values.get('HighR', 0)}, Centroide={centroide}"
+        # Construye una línea de texto incluyendo el id de la application y el centroide
+        line = f"{key}, Centroide={centroide}"
         output_lines.append(line)
 
     # Escribir todas las líneas en el archivo .txt
     with open(file_path, 'w') as file:
         for line in output_lines:
             file.write(line + '\n')
-
 
 
 

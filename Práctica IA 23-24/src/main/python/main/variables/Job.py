@@ -1,33 +1,31 @@
 from main.variables import Trapezoide
 import numpy as np
+import skfuzzy as fuzz
 import matplotlib.pyplot as plt
 
 
-class Job(Trapezoide.Trapezoideloco):
+class Job(Trapezoide.Trapezoide):
     def __init__(self, job_):
         self.job_ = job_
-    def job(self):
-        # Calcular los grados de membresía para la edad de 35 años
-        Unstable = self.trapezoidal_membership(self.job_, -2, -1, 1, 2)
-        Stable = self.trapezoidal_membership(self.job_, 2, 3, 6, 7)
+        # Definir el rango universal
+        self.x = np.linspace(0, 5, 1000)
+        # Definir los parámetros de las funciones de membresía
+        self.Unstable_params = [-2, -1, 1, 2]
+        self.Stable_params = [2, 3, 6, 7]
+        # Crear las funciones de membresía usando skfuzzy
+        self.Unstable_mf = fuzz.trapmf(self.x, self.Unstable_params)
+        self.Stable_mf = fuzz.trapmf(self.x, self.Stable_params)
 
+    def job(self):
+        # Calcular los grados de membresía
+        Unstable = fuzz.interp_membership(self.x, self.Unstable_mf, self.job_)
+        Stable = fuzz.interp_membership(self.x, self.Stable_mf, self.job_)
         return Unstable, Stable
 
-    def imprimir(self, Stable, Unstable):
-        print("Grado de membresía para 'Unstable':", Unstable)
-        print("Grado de membresía para 'Stable':", Stable)
-
     def grafico(self):
-        x = np.linspace(0, 5, 1000)
-
-        # Calcular los grados de membresía
-        Unstable = self.trapezoidal_membership(x, -2, -1, 1, 2)
-        Stable = self.trapezoidal_membership(x, 2, 3, 6, 7)
-
-        # Visualización
         plt.figure(figsize=(10, 6))
-        plt.plot(x, Unstable, label="Small")
-        plt.plot(x, Stable, label="Medium")
+        plt.plot(self.x, self.Unstable_mf, label="Small")
+        plt.plot(self.x, self.Stable_mf, label="Medium")
         plt.title("Fuzzy Membership Functions for Age Categories")
         plt.xlabel("Age")
         plt.ylabel("Degree of Membership")
