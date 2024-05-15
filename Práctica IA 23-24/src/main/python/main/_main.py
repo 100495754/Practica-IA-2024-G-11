@@ -61,7 +61,7 @@ def crear_resultado():
         if isinstance(centroide, float):
             centroide = round(centroide, 3)
         # Construye una línea de texto incluyendo el id de la application y el centroide
-        line = f"{key}, Centroide={centroide}"
+        line = f"{key}, {centroide}"
         output_lines.append(line)
 
     # Escribir todas las líneas en el archivo .txt
